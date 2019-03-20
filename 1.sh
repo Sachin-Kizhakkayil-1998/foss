@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 
-echo -e "current user :$USER (user name: $LOGNAME)"
+echo -e "current user : `whoami`"
 echo -e "current shell :$SHELL"
 echo -e "home :$HOME"
 echo -e "OS :$OSTYPE"
